@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="The Score and Gaming ">
+	<test name="The Score Test">
+		<parameter name="name" value="test" />
+		<parameter name="email" value="test@test.com" />
+		<parameter name="password" value="passwordtest" />
+		<classes>
+			<class name="tests.TheScoreTest" />
+		</classes>
+	</test>
+</suite>

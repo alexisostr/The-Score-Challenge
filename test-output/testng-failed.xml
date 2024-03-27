@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [The Score and Gaming ]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="The Score Test(failed)">
+    <parameter name="password" value="passwordtest"/>
+    <parameter name="name" value="test"/>
+    <parameter name="email" value="test@test.com"/>
+    <classes>
+      <class name="tests.TheScoreTest">
+        <methods>
+          <include name="theScoreTest01" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TheScoreTest -->
+    </classes>
+  </test> <!-- The Score Test(failed) -->
+</suite> <!-- Failed suite [The Score and Gaming ] -->
